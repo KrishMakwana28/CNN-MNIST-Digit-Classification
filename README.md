@@ -6,7 +6,7 @@ This project implements a **Convolutional Neural Network (CNN)** to classify han
 
 The MNIST dataset contains **60,000 training images and 10,000 test images**, with each image represented as a **28 × 28 grayscale image**.
 
-The project uses **TensorFlow/Keras** to build and train the CNN model for multi-class digit classification.
+The project uses **TensorFlow/Keras** to build and train the Perceptron/ANN/CNN model for multi-class digit classification.
 
 ---
 
@@ -19,7 +19,7 @@ The project covers:
 * Loading the MNIST dataset
 * Exploring handwritten digit images
 * Preparing image data
-* Building a CNN architecture
+* Building a Perceptron/ANN/CNN architecture
 * Training the neural network
 * Using Early Stopping
 * Evaluating model performance
@@ -205,7 +205,7 @@ Image Preprocessing
       ↓
 Reshape Image Data
       ↓
-Build CNN
+Build Perceptron/ANN/CNN
       ↓
 Compile Model
       ↓
@@ -298,7 +298,7 @@ Run the cells sequentially to:
 1. Load the MNIST dataset
 2. Explore the images
 3. Preprocess the data
-4. Build the CNN
+4. Build the Perceptron/ANN/CNN
 5. Train the model
 6. Evaluate performance
 7. Make digit predictions
